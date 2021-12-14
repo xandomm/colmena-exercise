@@ -14,3 +14,14 @@ a {
 * {
   box-sizing: border-box;
 }
+div.DraftEditor-root {
+  border: 1px solid rgb(73, 63, 63);
+  background-color: rgba(114, 114, 114, 0.068);
+  height: 200px;
+  width: 100vw;
+  overflow-y: auto;
+}
+div.DraftEditor-editorContainer,
+div.public-DraftEditor-content {
+  height: 100%;
+}
